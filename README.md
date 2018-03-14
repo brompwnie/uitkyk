@@ -33,4 +33,7 @@ frida -U -l AnalyzingHeapForObjects.js com.an.android.app
 frida -U -l CatchingRuntimeExec.js com.an.android.app
 ```
 
+## Some Videos
+The videos used in the TROOPERS18 talk can be found here https://goo.gl/k6BNBq
+
 ## This repo will be updated regularly while I am at Troopers, please expect delays
