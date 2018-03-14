@@ -3,7 +3,7 @@ Uitkyk is a custom Android Frida libary which provides an API to analyze Android
 
 ## This Repo
 The folder "Frida Scripts" contains some basic Frida scripts to assist in the runtime analysis of Android applications.
-The folder "Android Library" contains the custom Android Frida library which can be used by Android applications to interact with Frida server instances.
+The folder "Android Library" contains the custom Android Frida library which can be used by Android applications to interact with Frida server instances. The folder "UitkykDemoApp" contains a demo Android application which utilizes the Uitkyk library. 
 
 ## Uitkyk Usage
 To use the Uitkyk library, add the module to your Android application as a regular Android module. Currently there are two methods supported. To run the Frida equivelant of "frida-ps -U", use:
@@ -32,6 +32,9 @@ frida -U -l AnalyzingHeapForObjects.js com.an.android.app
 ```
 frida -U -l CatchingRuntimeExec.js com.an.android.app
 ```
+
+## Uitkyk Demo App
+This application uses the Uitkyk library. Import the library into the app to ensure the application builds and runs. To ensure that the demo app runs, a local instance of Frida Server is required to be running locally on the device.
 
 ## Some Videos
 The videos used in the TROOPERS18 talk can be found here https://goo.gl/k6BNBq
