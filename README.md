@@ -5,6 +5,7 @@ By Chris Le Roy (@brompwnie)
 Uitkyk is a framework that allows you to identify Android malware according to the instantiated objects on the heap for a specific Android process.
 
 Uitkyk was launched at Troopers18 and the talk and slides can be found here https://troopers.de/troopers18/agenda/uc9azv/
+
 Videos showing Uitkyk in action can be found on YouTube here https://www.youtube.com/channel/UCqCZRfUpl2azw8ZfvCiOIKA
 
 # What does it do
@@ -41,7 +42,7 @@ The API calls return a String which contains the output of the scans which can b
 First, make sure you have implemented the Requirements section. To use the Uitkyk application, either download the prebuilt APK located in the release section or build the APK from the source code located in the "UitkykDemoApp" folder. Once the apk is installed, simply run the application and provide the process ID for the process you want to analyze.
 
 
-## Uitky Scripts
+## Uitkyk Scripts
 The scripts located in the Scripts folder can be run as following:
 
 ```
